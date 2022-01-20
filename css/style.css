@@ -14,7 +14,6 @@
 .container{
     width: 80%;
     margin: 0 auto;
-    padding: 20px 0;
 }
 
 .container > header{
@@ -66,13 +65,20 @@ footer{
 
 
 #logo{
-    width: 150px;
-    border-right: 1px solid lightgrey;
-    padding-right: 20px;
+    width: 160px;
+    border-right: 1px solid #dedfdf;
+    padding: 5px 20px 0 0;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
+
 
 ul#menu li {
     display:inline;
+    text-transform: uppercase;
+    color: #dedfdf;
+    margin-right: 10px;
+
 }
 
 
