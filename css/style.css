@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix::after {
@@ -65,7 +65,7 @@ div.transbox {
 }
 
 main{
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 .main-header{
     
@@ -115,7 +115,7 @@ h4{
     margin-bottom: 20px;
 }
 
-p{
+main p{
     color: #bfbebf;;
 }
 
@@ -128,14 +128,19 @@ p{
 
 
 footer{
-    width: 100%;
-    height: 100px;
-    background-color: #8800ff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+footer span{
+    color: red;
+    margin-left: 5px;
 }
 
 
 #logo{
-    width: 175px;
+    width: 150px;
     border-right: 1px solid #dedfdf;
     padding: 5px 20px 5px 0;
     margin-bottom: 40px;
