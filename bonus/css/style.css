@@ -68,6 +68,11 @@ ul#menu li {
 
 }
 
+ul#menu li:hover{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
 /* jumbotron */
 .jumbotron {
 
@@ -89,6 +94,20 @@ ul#menu li {
 
 .jumbotron-text h1 {
     font-weight: normal;
+}
+
+.jumbotron:hover .transbox{
+    display: none;
+}
+
+.jumbotron:hover{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.jumbotron:hover .jumbotron-text{
+    color: black;
+    font-size: 1.2rem;
 }
 
 /* main contenuto principale */
@@ -147,6 +166,34 @@ main p {
     width: calc((55%) - 10px);
     float: left;
     margin: 0 10px 10px;
+}
+
+.main-aside:hover .transbox{
+    display: none;
+}
+
+.main-content:hover .transbox{
+    display: none;
+}
+
+.main-aside:hover #img-left{
+    background-image: url("../img/img-4.jpg");
+
+}
+
+.main-aside:hover #img-right{
+    background-image: url("../img/img-5.jpg");
+
+}
+
+.main-aside:hover .aside-text
+{
+    font-size: 1.5rem;
+}
+
+.main-content:hover .main-text
+{
+    font-size: 1.5rem;
 }
 
 /* footer */
