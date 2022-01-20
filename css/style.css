@@ -1,41 +1,76 @@
 /* RESET CSS */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h4 {
+    color: #bfbebf;
+    font-weight: normal;
+}
+
+/* classi base per posizionamenti */
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
-.absolute{
+.absolute {
     position: absolute;
 }
 
-.container{
+/* classe per trasparenza diversa immagini */
+div.transbox {
+
+    height: 100%;
+    background-color: black;
+    opacity: 0.2;
+    border-radius: 10px;
+}
+
+
+.container {
     width: 80%;
     margin: 0 auto;
 }
 
-.container > header{
+/* header principale pagina */
+.container>header {
 
     margin-bottom: 40px;
-  
+
 }
 
-.jumbotron{
-    
+
+#logo {
+    width: 150px;
+    border-right: 1px solid #dedfdf;
+    padding: 5px 20px 5px 0;
+    margin-bottom: 40px;
+}
+
+
+ul#menu li {
+    display: inline;
+    text-transform: uppercase;
+    color: #bfbebf;
+    margin-right: 10px;
+
+}
+
+/* jumbotron */
+.jumbotron {
+
     height: 500px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -45,52 +80,39 @@ body{
 
 }
 
-div.transbox {
-
-    height: 100%;
-    background-color: black;
-    opacity: 0.2;
-    border-radius: 10px;
-}
-
-.jumbotron-text{
+.jumbotron-text {
     width: 50%;
     color: white;
     bottom: 70px;
     left: 50px;
 }
 
-.jumbotron-text h1{
+.jumbotron-text h1 {
     font-weight: normal;
 }
 
-main{
-    margin-bottom: 30px;
-}
-.main-header{
-    
+/* main contenuto principale */
+main {
     margin-bottom: 30px;
 }
 
-.main-header h1{
+.main-header {
+
+    margin-bottom: 30px;
+}
+
+.main-header h1 {
     font-size: 2.5rem;
     font-weight: 700;
 }
 
-h4{
-    color: #bfbebf;
-    font-weight: normal;
-}
-
-
-
-.main-aside{
+.main-aside {
     width: calc((45% / 2) - 5px);
     float: left;
     margin-bottom: 10px;
 }
 
-.main-img{
+.main-img {
     height: 210px;
     background-size: cover;
     background-position: center;
@@ -98,63 +120,44 @@ h4{
     margin-bottom: 20px;
 }
 
-#img-left{
+#img-left {
     background-image: url("../img/img-1.jpg");
 }
 
-#img-right{
+#img-right {
     background-image: url("../img/img-3.jpg");
 }
 
-#main-content-img{
+#main-content-img {
     background-image: url("../img/banner-2.jpg");
 }
 
 .aside-text h4,
-.main-text h4{
+.main-text h4 {
     color: #444444;
     margin-bottom: 20px;
 }
 
-main p{
-    color: #bfbebf;;
+main p {
+    color: #bfbebf;
+    ;
 }
 
-
-.main-content{
+.main-content {
     width: calc((55%) - 10px);
     float: left;
     margin: 0 10px 10px;
 }
 
-
-footer{
+/* footer */
+footer {
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.2rem;
 }
 
-footer span{
+footer span {
     color: red;
     margin-left: 5px;
 }
-
-
-#logo{
-    width: 150px;
-    border-right: 1px solid #dedfdf;
-    padding: 5px 20px 5px 0;
-    margin-bottom: 40px;
-}
-
-
-ul#menu li {
-    display:inline;
-    text-transform: uppercase;
-    color: #bfbebf;
-    margin-right: 10px;
-
-}
-
-
 
