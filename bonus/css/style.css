@@ -168,6 +168,19 @@ main p {
     margin: 0 10px 10px;
 }
 
+/* main hover */
+.main-aside:hover{
+    border:1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.main-content:hover{
+    border:1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
 .main-aside:hover .transbox{
     display: none;
 }
